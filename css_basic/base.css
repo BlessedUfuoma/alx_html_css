@@ -1,0 +1,120 @@
+/* Base Reset & Font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header Navigation */
+header {
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header li a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+header li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Section */
+main {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Article Section */
+article {
+  margin-bottom: 20px;
+}
+
+article img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: #0077cc;
+}
+
+a:hover {
+  color: #005fa3;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+thead {
+  background-color: #f0f0f0;
+}
+
+/* Aside */
+aside {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-top: 20px;
+  border-left: 4px solid #ccc;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer a {
+  color: #0077cc;
+}
+
+/* Twitter Embed Styling (Optional Enhancement) */
+.twitter-tweet {
+  margin: 20px auto;
+  max-width: 550px;
+}
