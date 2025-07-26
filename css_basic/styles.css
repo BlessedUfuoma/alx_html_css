@@ -48,3 +48,8 @@ th, td {
   padding: 8px;
   text-align: left;
 }
+
+.works_on_smartphone main {
+  display: block;
+}
+
