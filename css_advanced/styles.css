@@ -362,3 +362,58 @@ main > section:nth-of-type(2) p {
   line-height: 1.6;
   color: #555;
 }
+
+.footer1{
+    display: flex;
+}
+
+/* Container - same layout as header */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #010a27;
+  color: #fff;
+  padding: 40px 0 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.footer-logo img {
+  width: 130px;
+}
+
+/* Social Icons */
+.footer-socials i {
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-socials i:hover {
+  color: #feab45;
+}
+
+/* Footer text */
+.footer-copy {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-logo img {
+  width: 50px; /* reduced from 130px */
+}
